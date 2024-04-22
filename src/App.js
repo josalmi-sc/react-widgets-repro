@@ -3,7 +3,8 @@ import "react-widgets/dist/css/react-widgets.css"
 
 function App() {
   return (
-    <div className="App">
+    <div style={{ maxWidth: '500px', margin: '0 auto' }}>
+      <div>Open the following dropdown for Crash:</div>
       <DropdownList
         data={["Red", "Yellow", "Blue", "Orange"]}
       />

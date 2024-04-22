@@ -8,6 +8,11 @@ function App() {
       <DropdownList
         data={["Red", "Yellow", "Blue", "Orange"]}
       />
+      <div>This one works 🤷‍♂️</div>
+      <DropdownList
+        data={["Red", "Yellow", "Blue", "Orange"]}
+        defaultValue="Red"
+      />
     </div>
   );
 }
